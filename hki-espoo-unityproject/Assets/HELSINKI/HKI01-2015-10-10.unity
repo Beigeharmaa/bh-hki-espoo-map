@@ -116,18 +116,18 @@ TextMesh:
 
 '
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: .5
   m_LineSpacing: 1
   m_Anchor: 4
-  m_Alignment: 0
-  m_TabSize: 3
-  m_FontSize: 20
+  m_Alignment: 1
+  m_TabSize: 5
+  m_FontSize: 120
   m_FontStyle: 1
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278255472
 --- !u!23 &83537204
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -135,8 +135,8 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 83537202}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_Materials:
   - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
   m_SubsetIndices: 
@@ -919,18 +919,18 @@ TextMesh:
   m_GameObject: {fileID: 958002533}
   m_Text: HELSINKI
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: .5
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
   m_TabSize: 3
-  m_FontSize: 20
+  m_FontSize: 120
   m_FontStyle: 1
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278205695
 --- !u!23 &958002535
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1298,15 +1298,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 15.2250633
+      value: 174.702652
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 19.6819191
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.57594776
+      value: -48.5532875
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1314,7 +1314,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: .188238859
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.z
@@ -1322,7 +1322,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -.982123256
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
@@ -1525,18 +1525,18 @@ TextMesh:
 
 '
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: .5
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
   m_TabSize: 3
-  m_FontSize: 20
+  m_FontSize: 120
   m_FontStyle: 1
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4294946048
 --- !u!23 &1877185593
 MeshRenderer:
   m_ObjectHideFlags: 0
