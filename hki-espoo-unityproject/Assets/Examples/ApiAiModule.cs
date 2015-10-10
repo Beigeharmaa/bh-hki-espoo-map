@@ -59,8 +59,8 @@ public class ApiAiModule : MonoBehaviour
     {
 
 		// Init MoveCamera location
-		//MoveCamera moveCamera = GetComponent<MoveCamera>();
-		//moveCamera.UpdateLocation("espoo");
+		MoveCamera moveCamera = GetComponent<MoveCamera>();
+		moveCamera.UpdateLocation("espoo");
 
 		// check access to the Microphone
         yield return Application.RequestUserAuthorization(UserAuthorization.Microphone);
