@@ -28,7 +28,7 @@ public class MoveCamera : MonoBehaviour {
 		journeyLength = Vector3.Distance(transform.position, camera.transform.position);
 		Vector3 originDiff = transform.position - camera.transform.position;
 		midPointInX = Mathf.Abs(originDiff.x)/2;
-		height = new Vector3(0, 4f, 0);
+		height = new Vector3(0, 0f, 0);
 		camera.transform.position += height;		 // add height to campos
 		InvokeRepeating("UpdatePosition", 0, 0.01F); // add height to campos
 	}
