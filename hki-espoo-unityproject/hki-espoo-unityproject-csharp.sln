@@ -1,11 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{01C96E9F-9935-09A9-0EE5-9BF693B19539}") = "hki-espoo-unityproject", "Assembly-CSharp-firstpass.csproj", "{E42B3F05-C954-037D-CABE-30FDD63CF96F}"
+Project("{01C96E9F-9935-09A9-0EE5-9BF693B19539}") = "hki-espoo-unityproject", "Assembly-CSharp-firstpass-vs.csproj", "{E42B3F05-C954-037D-CABE-30FDD63CF96F}"
 EndProject
-Project("{01C96E9F-9935-09A9-0EE5-9BF693B19539}") = "hki-espoo-unityproject", "Assembly-CSharp.csproj", "{8775A38B-85B8-7A40-9812-AA3346E5F9FB}"
+Project("{01C96E9F-9935-09A9-0EE5-9BF693B19539}") = "hki-espoo-unityproject", "Assembly-CSharp-vs.csproj", "{8775A38B-85B8-7A40-9812-AA3346E5F9FB}"
 EndProject
-Project("{01C96E9F-9935-09A9-0EE5-9BF693B19539}") = "hki-espoo-unityproject", "Assembly-CSharp-Editor.csproj", "{9D4CE981-3D86-3A6B-48CD-D6AF84A2106D}"
+Project("{01C96E9F-9935-09A9-0EE5-9BF693B19539}") = "hki-espoo-unityproject", "Assembly-CSharp-Editor-vs.csproj", "{9D4CE981-3D86-3A6B-48CD-D6AF84A2106D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-													GlobalSection(MonoDevelopProperties) = preSolution
+														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -29,8 +29,8 @@ public class MoveCamera : MonoBehaviour {
 		Vector3 originDiff = transform.position - camera.transform.position;
 		midPointInX = Mathf.Abs(originDiff.x)/2;
 		height = new Vector3(0, 4f, 0);
-		camera.transform.position += height;
-		InvokeRepeating("UpdatePosition", 0, 0.01F);
+		camera.transform.position += height;		 // add height to campos
+		InvokeRepeating("UpdatePosition", 0, 0.01F); // add height to campos
 	}
 
 	public void UpdatePosition(){
@@ -56,12 +56,16 @@ public class MoveCamera : MonoBehaviour {
 			transform.rotation = Quaternion.LookRotation(newDir);
 		}
 
-		if (currentDiff.x == 0)
-			stop = true;
+//		if (currentDiff.x == 0)
+//			stop = true;
 	}
 
-	void Update (){
-		if (stop)
-			CancelInvoke("UpdatePosition");
+	void Update ()
+	{
+		if (stop) 
+		{
+			Debug.Log ("STOP+cancelinvoke");
+			CancelInvoke ("UpdatePosition");
+		}
 	}
 }
