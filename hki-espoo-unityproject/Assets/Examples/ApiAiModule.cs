@@ -48,6 +48,8 @@ public class ApiAiModule : MonoBehaviour
     public Dictionary<string, Landmark> landmarks;
     private bool recordingMode;
     public Soundbank soundbank;
+	public GameObject RecordingText;
+	
 
     private readonly JsonSerializerSettings jsonSettings = new JsonSerializerSettings
     { 
@@ -57,6 +59,8 @@ public class ApiAiModule : MonoBehaviour
     // Use this for initialization
     IEnumerator Start()
     {
+		// make sure the recordingtext is off
+		RecordingText.SetActive (false);
 
 		// Init MoveCamera location
 		MoveCamera moveCamera = GetComponent<MoveCamera>();
@@ -175,9 +179,11 @@ public class ApiAiModule : MonoBehaviour
         if(recordingMode)
         {
           Debug.Log ("START RECORDING ");
+			RecordingText.SetActive (true);
           StartListening ();
         } else {
           Debug.Log ("STOP RECORDING ");
+			RecordingText.SetActive (false);
           StopListening ();
         }
       }
